@@ -1,0 +1,65 @@
+{
+  "seed": "20261121-JA-SYNTH",
+  "profile": {
+    "region_basis": "某区域 A一般水平（参数假设，非官方统计，不含任何真实企业数据）",
+    "entity_type": "房地产开发项目公司（合成）",
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8"
+    ],
+    "revenue_100m": [
+      "2.2",
+      "3.6",
+      "5.1",
+      "4.2",
+      "3.4",
+      "2.8",
+      "2.0",
+      "1.6"
+    ],
+    "cost_ratio": {
+      "land": "0.30",
+      "construction": "0.42",
+      "other": "0.06"
+    },
+    "expense_ratio": {
+      "selling": "0.045",
+      "admin": "0.030",
+      "finance": "0.012"
+    },
+    "tax_surcharge_ratio": "0.018",
+    "cit_rate": {
+      "T1": "0.25",
+      "T2": "0.25",
+      "T3": "0.25",
+      "T4": "ambiguous",
+      "T5": "0.20",
+      "T6": "0.20",
+      "T7": "0.20",
+      "T8": "0.20"
+    },
+    "cit_rate_ambiguous": {
+      "T4": [
+        "0.25",
+        "0.20"
+      ]
+    },
+    "prepaid_ratio": "0.90",
+    "opening": {
+      "cash": "8000000",
+      "inventory": "60000000",
+      "liability": "40000000",
+      "paid_in": "20000000",
+      "retained": "8000000"
+    },
+    "dividend": "0",
+    "journal_entries_per_year": 2
+  },
+  "note": "地区特征参数为假设，非官方统计；不含任何真实企业数据"
+}
