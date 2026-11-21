@@ -1,0 +1,271 @@
+{
+  "generated_at": "2026-11-21T10:55:00",
+  "source": "closed-loop-public v1.0.1",
+  "note": "synthetic-only public export; no real data",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "62cbf5defe74929ceeadb95a5f4bfcd6ca12172a1560216572002538fc83dbe9"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "850e7192b45824dd29e7eb2857a50d6b591f34fdd135dc56bf2db48548c1e9d7"
+    },
+    {
+      "path": "demo.py",
+      "sha256": "24d5b982daac0ce534221e1d1d762e1a6deb9d043b6d6514f754dd3147a45641"
+    },
+    {
+      "path": "docs/DATA-CARD.md",
+      "sha256": "b8b0516d2a5c2aa0cecbd007de0981555f05fb2ce1ab31425712fe4a4423eff9"
+    },
+    {
+      "path": "docs/REPRODUCE-SYNTHETIC.md",
+      "sha256": "5971b4b1fe21dbc05c3a908feeed431aba391f2bea7a0fea01d8634db22c3db4"
+    },
+    {
+      "path": "LICENSE-CC-BY",
+      "sha256": "eac8887ce184c5c5594a81fb82c83de5f7cc16dafdd940754b171eec1579d6be"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "sha256": "37734b799488c617857472c9b042e464be32a7ffd4ae2a4e52cf78cfda4f466e"
+    },
+    {
+      "path": "loop_mvp/__init__.py",
+      "sha256": "94fc4501155c63ecd2d2423e9844a9e4ceb865f0f4f58bf81a37addebbf3abec"
+    },
+    {
+      "path": "loop_mvp/audit.py",
+      "sha256": "c51f48e7e90ab7a3e9ae12f828e6728cfc7db6640faa3548f708289cb83d12ab"
+    },
+    {
+      "path": "loop_mvp/contracts.py",
+      "sha256": "92bc32652d7b3c0b47d4c27d64214ce5a62e03fc324cf369bf0bd45b5e4cd96c"
+    },
+    {
+      "path": "loop_mvp/cutting.py",
+      "sha256": "3a20ef9986c9ad1e439636a72bb4c9d211e63e15ab3135ac6ec8a6a5c799a50f"
+    },
+    {
+      "path": "loop_mvp/domain.py",
+      "sha256": "54b2d2f45a1a7413acc042939a78d669c771fdc3a26b430ac2613bb7f5968382"
+    },
+    {
+      "path": "loop_mvp/estimator.py",
+      "sha256": "96530d42d8521bd022cbf43827af433b81b78e8186eec221cba38d35865eb804"
+    },
+    {
+      "path": "loop_mvp/finance.py",
+      "sha256": "f7568a9eaca05f9ae17f98e186f6822f1c13e0fb17e8fa766c863d272166f88c"
+    },
+    {
+      "path": "loop_mvp/finance_ledger.py",
+      "sha256": "9c8495cd26b8d559c4f43b05c3490348e5f1c24fd607fb7050f058ace5bd787f"
+    },
+    {
+      "path": "loop_mvp/finance_real.py",
+      "sha256": "132959d54b6b8eae47fb3533d6a44e140bde957e8925be23349458f535621b3d"
+    },
+    {
+      "path": "loop_mvp/finance_voucher.py",
+      "sha256": "9a0b4f8adaee13bb522d1f4945596e871c13892b4779e117d68e68936938d053"
+    },
+    {
+      "path": "loop_mvp/gate.py",
+      "sha256": "3fa494c058b814743c0ae66ab48e4a93794bd3e9bd4d61476ab5ea674deab52a"
+    },
+    {
+      "path": "loop_mvp/interop.py",
+      "sha256": "cf1591974701227515ddb8bfcc9740f87c16deeacbfe23a799fa7016d64e096f"
+    },
+    {
+      "path": "loop_mvp/ledger.py",
+      "sha256": "534d95cb3a25ed6fc40cb16ca21ee5817c57e59895fffd45923eaa20bfe65d8a"
+    },
+    {
+      "path": "loop_mvp/local_taxes.py",
+      "sha256": "8cd3c5c5a852242a6f8102d2d5e49f97acb7802e71f4fc5a469d752696060594"
+    },
+    {
+      "path": "loop_mvp/loop.py",
+      "sha256": "3ba667cead80cb701a4337e6c4574656073098b99a6577367c6a7e345e05471d"
+    },
+    {
+      "path": "loop_mvp/memory.py",
+      "sha256": "08e9a83bad8e96df3e58464c251eafdd236ff3efb1c11f1d42618d58b283a6a8"
+    },
+    {
+      "path": "loop_mvp/mpc.py",
+      "sha256": "5fd50d8bc444192c28f50d4b598a17b143bb0ac8dcbbdb247b5548fa261c7c0a"
+    },
+    {
+      "path": "loop_mvp/real_checks.py",
+      "sha256": "7c73861e41da85a8d392cef329888617c83dd9914d0bb0d5d3004c8e0714068c"
+    },
+    {
+      "path": "loop_mvp/rules.py",
+      "sha256": "835c6897f2b11ba8e00832be3cc616b8e51af74c174a64fe1c38631a55c7e915"
+    },
+    {
+      "path": "loop_mvp/tax_checks.py",
+      "sha256": "b8532e1a917abed930db5ab5e250c4d0297165142e4ed9512178fd9077ec33e4"
+    },
+    {
+      "path": "loop_mvp/tax_cit.py",
+      "sha256": "7009f6f78555981093675e9594049264890de123623063e18d3e9bcafccc0479"
+    },
+    {
+      "path": "loop_mvp/tax_compliance.py",
+      "sha256": "0a20e28a9576fbf86657c84e1cd1db6fb9787c531166379c43aecc4a3114e4a1"
+    },
+    {
+      "path": "loop_mvp/tax_planning.py",
+      "sha256": "bfbf853782b4036f8993bc443c67c187c900c843c9bad8ba5cc425faf3b6b598"
+    },
+    {
+      "path": "loop_mvp/types.py",
+      "sha256": "1989386d6e856146d67e21911030e4795d50ce3aafd0a9266b3fd077b52d0e54"
+    },
+    {
+      "path": "paper/论文-匿名版-v1.0.1.pdf",
+      "sha256": "d44b9fd897b7003bb27acaf9bfdaeb157eab7498e9569c18ca1ff605ca91f0e5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "61fe8e94a3c50739dd1d71736c55644e4535db1ae9e63400284fb189d612c880"
+    },
+    {
+      "path": "synthetic/balance_sheet.csv",
+      "sha256": "60fd7cef510f5502a8ec040b550e74afbbc85ad88428b54ba14bb3bfbce8d35c"
+    },
+    {
+      "path": "synthetic/checks_report.md",
+      "sha256": "2fb5d3e4a2a6945a390e86d47bcf919d932780d80035e9ca6f7bd45758e4565d"
+    },
+    {
+      "path": "synthetic/checks_results.json",
+      "sha256": "f0399941f0bbcdf7b27e0641b726e12aabf261003e19c9ce336d181ee74e5d0e"
+    },
+    {
+      "path": "synthetic/faults.json",
+      "sha256": "5bbe8f1233b172995ca5dc1a4f26edbfabadb115c78d199e5acf6152b99232fd"
+    },
+    {
+      "path": "synthetic/income_statement.csv",
+      "sha256": "707f37e81db02a3888e572dfd0b81fedc8c34116a01bc6c3758e9f886dd80494"
+    },
+    {
+      "path": "synthetic/journal.csv",
+      "sha256": "3e9a3b3c719b4fda44886c230d93b81867e10feb7fa96e0c2c075942db0e3241"
+    },
+    {
+      "path": "synthetic/philosophy_check.md",
+      "sha256": "b32f178ebb84f36e2c6b9a04b5dd01aa1816b78b599e279c94a23b8ced4650cc"
+    },
+    {
+      "path": "synthetic/profile.json",
+      "sha256": "2257513747e0ab0b58c9ffdee239a3d43af14edbabddbf3df8ebcfbc1bb6169c"
+    },
+    {
+      "path": "synthetic/tax_return.csv",
+      "sha256": "01d1a876e499ad2d6dbf94ee156fa3753f45595a68445eb678205881ee4842ca"
+    },
+    {
+      "path": "tests/test_ablation.py",
+      "sha256": "5e736b99c74ce820c0e2d1704b32522ea6207a8a34240c5e9665085befe835bd"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "50046c58f46900ef0428e5c3d4d6606c949f59b45b25035d940394ae69cb0aeb"
+    },
+    {
+      "path": "tests/test_domains.py",
+      "sha256": "c31ec602984c789de8be9350ec57ca0953f6c4a4a0ff377171e375a3cb444ead"
+    },
+    {
+      "path": "tests/test_finance_ledger.py",
+      "sha256": "06b216817b41ff54717d243cca95152cbc3a946d1b66b6ba291cd74afd12df71"
+    },
+    {
+      "path": "tests/test_finance_real.py",
+      "sha256": "debfc43877e63ebb1fd4dc5fc6cfd5c2e1ea09ea8ea349b9b9532710b8566909"
+    },
+    {
+      "path": "tests/test_finance_voucher.py",
+      "sha256": "5906b1b3f83a2b73b30096bd6e7038a65315feab4d88a9deee0a1a2a55cb63c4"
+    },
+    {
+      "path": "tests/test_interop.py",
+      "sha256": "f59806a5df5e1a111fa72894e41c892bbb21349835463a0b201137fe4dde6031"
+    },
+    {
+      "path": "tests/test_local_taxes.py",
+      "sha256": "f0b4258d7f554bdb5de2c2384a09711513320f705d44002038a0e2e36bb0cb95"
+    },
+    {
+      "path": "tests/test_loop.py",
+      "sha256": "a0b831cf8a3bb2666ba1a50d17e7034d99eb17c282120d57f31770a51920bab0"
+    },
+    {
+      "path": "tests/test_mpc.py",
+      "sha256": "584e39d4991e40692e79c7430c7b92a2dd779290c7bba15c13def587b6fb4e0d"
+    },
+    {
+      "path": "tests/test_philosophy_guard.py",
+      "sha256": "d65d497a4c100ae794bb58f99ceb1a51a8329f79bac6683e49a5f4052f7b51ef"
+    },
+    {
+      "path": "tests/test_real_checks.py",
+      "sha256": "4d7be4ec42aaad9ad4b8236550473bcaa2b84ae992feaf4f1e1d042807492209"
+    },
+    {
+      "path": "tests/test_tax_checks.py",
+      "sha256": "c994fe1a0733deece4ab0820c63da52ed01fb573cd6e68678adcfe60c60c4ed1"
+    },
+    {
+      "path": "tests/test_tax_cit.py",
+      "sha256": "4079ba1c7a12a9311165cfec7099d3064cab9fd77412608a84338fc52c49467b"
+    },
+    {
+      "path": "tests/test_tax_compliance.py",
+      "sha256": "98161e385b8b09a032021345f9e07de68b5d0ee74e560e4e9c5d4f6c9074036e"
+    },
+    {
+      "path": "tests/test_tax_planning.py",
+      "sha256": "211910a5279aa82585a7cb4adf02314589222584976bce48b78c4f2729b03f71"
+    },
+    {
+      "path": "tests/test_vat_checks.py",
+      "sha256": "79d84ca0ae44186ec3534a1934a64641b7a3ce7e39b362e734f5b254d3156d7d"
+    },
+    {
+      "path": "tools/build_paper_docx.py",
+      "sha256": "b43a72381faa3e99e3b53eb0441ae36e70f01b9a910601608a0c4c419ecc38c4"
+    },
+    {
+      "path": "tools/build_synthetic_dataset.py",
+      "sha256": "8b00f3f67e708707480cf19e4dfb5d16f5e25e3e9fb3dda4666e3e3c8b663934"
+    },
+    {
+      "path": "tools/interop_demo.py",
+      "sha256": "8c231ff7ae3e78fa2223765f1acbebb8a062a35ca8d375382115749837e81b41"
+    },
+    {
+      "path": "tools/make_fig2_synthetic.py",
+      "sha256": "3413b1a69da83fa6ee178cf93280c1fe6abb8539982a6b0237f7d04b3fee857b"
+    },
+    {
+      "path": "tools/mpc_demo.py",
+      "sha256": "05b786c63fe4c4c23f97581cae12761885ac501ecc3a00d3308a1c1d73146c0a"
+    },
+    {
+      "path": "tools/philosophy_check.py",
+      "sha256": "a8f767b12b20f6ff1cfd1df59e9eb296f18f6edf6c42ce43e34bc7107287fea4"
+    },
+    {
+      "path": "tools/run_ablation.py",
+      "sha256": "f0e5a91dd653365a696aa3b7bafe5df882f5a703579440ccb15e452a21e35620"
+    }
+  ]
+}
