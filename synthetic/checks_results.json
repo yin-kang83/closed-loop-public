@@ -1,0 +1,486 @@
+{
+  "summary": {
+    "checks": 79,
+    "pass": 79,
+    "fail": 0,
+    "periods": 8,
+    "injected_faults": 3,
+    "sha256_journal": "3e9a3b3c719b4fda"
+  },
+  "checks": [
+    {
+      "code": "BS_IDENTITY",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "资产=97965025.00 L+E=97965025.00"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "资产=147003475.00 L+E=147003475.00"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "资产=216477737.50 L+E=216477737.50"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "资产=276107957.50 L+E=276107957.50"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "资产=324378897.50 L+E=324378897.50"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "资产=364130377.50 L+E=364130377.50"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "资产=392522577.50 L+E=392522577.50"
+    },
+    {
+      "code": "BS_IDENTITY",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "资产=415235137.50 L+E=415235137.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "期末=58003475.00 期望=58003475.00"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "期末=101977737.50 期望=101977737.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "期末=140607957.50 期望=140607957.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "期末=171878897.50 期望=171878897.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "期末=197630377.50 期望=197630377.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "期末=216022577.50 期望=216022577.50"
+    },
+    {
+      "code": "RE_ROLLFORWARD",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "期末=230735137.50 期望=230735137.50"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "V1 借=88000000.00 贷=88000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "V2 借=6334975.00 贷=6334975.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "V1 借=144000000.00 贷=144000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "V2 借=10361550.00 贷=10361550.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "V1 借=204000000.00 贷=204000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "V2 借=14675737.50 贷=14675737.50"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "V1 借=168000000.00 贷=168000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "V2 借=9669780.00 贷=9669780.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "V1 借=136000000.00 贷=136000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "V2 借=7829060.00 贷=7829060.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "V1 借=112000000.00 贷=112000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "V2 借=6448520.00 贷=6448520.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "V1 借=80000000.00 贷=80000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "V2 借=4607800.00 贷=4607800.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "V1 借=64000000.00 贷=64000000.00"
+    },
+    {
+      "code": "VOUCHER_BALANCE",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "V2 借=3687440.00 贷=3687440.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "应纳税所得额=25339900.00 税额=6334975.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "应纳税所得额=41446200.00 税额=10361550.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "应纳税所得额=58702950.00 税额=14675737.50"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "应纳税所得额=48348900.00 税额=9669780.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "应纳税所得额=39145300.00 税额=7829060.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "应纳税所得额=32242600.00 税额=6448520.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "应纳税所得额=23039000.00 税额=4607800.00"
+    },
+    {
+      "code": "CIT_RECOMPUTE",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "应纳税所得额=18437200.00 税额=3687440.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "营业利润=25300000.00 期望=25300000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "营业利润=41400000.00 期望=41400000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "营业利润=58650000.00 期望=58650000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "营业利润=48300000.00 期望=48300000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "营业利润=39100000.00 期望=39100000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "营业利润=32200000.00 期望=32200000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "营业利润=23000000.00 期望=23000000.00"
+    },
+    {
+      "code": "PL_ARTICULATION",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "营业利润=18400000.00 期望=18400000.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "年借=94334975.00 年贷=94334975.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "年借=154361550.00 年贷=154361550.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "年借=218675737.50 年贷=218675737.50"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "年借=177669780.00 年贷=177669780.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "年借=143829060.00 年贷=143829060.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "年借=118448520.00 年贷=118448520.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "年借=84607800.00 年贷=84607800.00"
+    },
+    {
+      "code": "VOUCHER_YEAR_BALANCE",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "年借=67687440.00 年贷=67687440.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "预缴=5701477.50 期望=5701477.50"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "应补退=633497.50 期望=633497.50"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "预缴=9325395.00 期望=9325395.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "应补退=1036155.00 期望=1036155.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "预缴=13208163.75 期望=13208163.75"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "应补退=1467573.75 期望=1467573.75"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "预缴=8702802.00 期望=8702802.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "应补退=966978.00 期望=966978.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "预缴=7046154.00 期望=7046154.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "应补退=782906.00 期望=782906.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "预缴=5803668.00 期望=5803668.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "应补退=644852.00 期望=644852.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "预缴=4147020.00 期望=4147020.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "应补退=460780.00 期望=460780.00"
+    },
+    {
+      "code": "PREPAY_FORMULA",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "预缴=3318696.00 期望=3318696.00"
+    },
+    {
+      "code": "SETTLE_FORMULA",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "应补退=368744.00 期望=368744.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T1",
+      "status": "PASS",
+      "detail": "期间费用=19140000.00 期望=19140000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T2",
+      "status": "PASS",
+      "detail": "期间费用=31320000.00 期望=31320000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T3",
+      "status": "PASS",
+      "detail": "期间费用=44370000.00 期望=44370000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T4",
+      "status": "PASS",
+      "detail": "期间费用=36540000.00 期望=36540000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T5",
+      "status": "PASS",
+      "detail": "期间费用=29580000.00 期望=29580000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T6",
+      "status": "PASS",
+      "detail": "期间费用=24360000.00 期望=24360000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T7",
+      "status": "PASS",
+      "detail": "期间费用=17400000.00 期望=17400000.00"
+    },
+    {
+      "code": "EXPENSE_RATIO",
+      "period": "T8",
+      "status": "PASS",
+      "detail": "期间费用=13920000.00 期望=13920000.00"
+    }
+  ]
+}
